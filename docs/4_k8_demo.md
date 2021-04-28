@@ -1,9 +1,9 @@
 # 링크
 [동영상](https://www.youtube.com/watch?v=X48VuDVv0do&t=4576s)
 # 0. mongo express external service
-![img](images/4_1_1.PNG)  
+![img](images/4/4_1_1.PNG)  
 
-![img](images/4_1_2.PNG)  
+![img](images/4/4_1_2.PNG)  
 # 1. mongo deployment& service
 ## 1. mongodb deployment
 
@@ -64,7 +64,7 @@ data:
 ```
 
 
-![img](images/4_1_3.PNG)  
+![img](images/4/4_1_3.PNG)  
 
 - secret must be created before deployment
 
@@ -100,11 +100,11 @@ spec:
 
 # 3. mongo configmap & express
 
-![img](images/4_1_4.PNG)  
+![img](images/4/4_1_4.PNG)  
 ## mongo config map
 [mongo express docker image](https://hub.docker.com/_/mongo-express)
 
-![img](images/4_1_5.PNG)  
+![img](images/4/4_1_5.PNG)  
 - mongo-configmap.yaml
 ```yaml
 apiVersion: v1
@@ -163,7 +163,7 @@ kubectl apply -f configs/mongo-express.yaml
 # 4. mongo express service & exernal
 ## external service
 
-![img](images/4_1_6.PNG)  
+![img](images/4/4_1_6.PNG)  
 
 
 - mongo-express.yaml에 추가
@@ -190,4 +190,4 @@ spec:
 minikube service mongo-express-service
 ```
 - data base 변경시 일어나는 과정
-![img](images/4_1_7.PNG)  
+![img](images/4/4_1_7.PNG)  

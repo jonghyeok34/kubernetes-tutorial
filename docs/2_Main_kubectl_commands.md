@@ -2,10 +2,10 @@
 [유튜브링크](https://www.youtube.com/watch?v=X48VuDVv0do&t=2692s)
 # main kubectl commands
 # overview
-![image](images/2_1_1.PNG)  
+![image](images/2/2_1_1.PNG)  
 ## layers of abstarction
-![image](images/2_1_2.PNG)  
-![image](images/2_1_3.PNG)  
+![image](images/2/2_1_2.PNG)  
+![image](images/2/2_1_3.PNG)  
 
 ## get infos
 ```

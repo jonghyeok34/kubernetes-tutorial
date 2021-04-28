@@ -1,12 +1,12 @@
 # Production Cluster Setup
 ## overview
-![image](images/1_1_1.PNG)  
+![image](images/1/1_1_1.PNG)  
 
 - multiple master & worker nodes
 ## what is minikube
 - test on local machine with k8s
-![image](images/1_1_2.PNG)  
-![image](images/1_1_3.PNG)  
+![image](images/1/1_1_2.PNG)  
+![image](images/1/1_1_3.PNG)  
 
 
 ## what is kubectl
@@ -16,8 +16,8 @@
   - create services
   - destroy pods
 
-![image](images/1_2_1.PNG)  
-![image](images/1_2_2.PNG)  
+![image](images/1/1_2_1.PNG)  
+![image](images/1/1_2_2.PNG)  
 
 ## installation
 - https://minikube.sigs.k8s.io/docs/start/
