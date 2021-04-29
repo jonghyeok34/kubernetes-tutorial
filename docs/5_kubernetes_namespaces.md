@@ -1,3 +1,5 @@
+
+# name space란?
 # 링크
 [동영상](https://www.youtube.com/watch?v=X48VuDVv0do&t=6376s)
 
